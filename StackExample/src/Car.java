@@ -31,6 +31,34 @@ public class Car {
     return speed;
     }
 }
+ //Abstract method (Abstraction)
+    public abstract void engineType() ;
+}
+
+//Electric Car
+class ElectricCar extends Car {
+
+    public ElectricCar(String brand, String color, String type, int speed) {
+         super(brand, color, type, speed);
+    }
+
+    @Override
+    public void engineType() {
+        System.out.println("Engine Type : Electric Motor");
+    }
+}
 
 
+//Gas Car
+class GasCar extends Car {
+
+    public GasCar(String brand, String color, String type, int speed) {
+        super(brand, color, type, speed);
+    }
+
+    @Override
+    public void engineType() {
+        System.out.println("Engine Type : Gasoline Engine");
+    }
+}
 
