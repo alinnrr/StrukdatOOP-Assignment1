@@ -3,9 +3,9 @@
 ## Mata Kuliah
 Struktur Data dan Pemrograman Berorientasi Objek
 
-- **Nama**: Ferlin Erdin
-- **NRP**: (Isi NRP kamu)
-- **Kelas**: (Isi kelas kamu)
+- **Nama**: Ferlin Erdina Sari
+- **NRP**: 5027251002
+- **Kelas**: B
 
 ---
 
@@ -134,7 +134,7 @@ Method ini tidak memiliki isi sehingga harus diimplementasikan oleh class turuna
 ---
 
 ## 3. Inheritance
-Inheritance adalah konsep **pewarisan class**, dimana class turunan mewarisi atribut dan method dari class induknya.
+Inheritance adalah konsep **pewarisan class**, dimana class turunan mewarisi atribut dan method dari class parentnya.
 
 Pada program ini:
 
